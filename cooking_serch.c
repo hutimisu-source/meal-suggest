@@ -237,9 +237,16 @@ int main(void) {
 		printf("関数print_resultで異常検知\n");
 
 		if (i_Code == -101)printf("ファイルingredients.txtがありません\n");
-		else if (i_Code == -102)printf("ingredients.txt内で食材数が適切でないです\n");
+		else if (i_Code == -102)printf("ingredients.txt内で食材数が見つかりません\n");
 		else if (i_Code == -103)printf("ingredients.txt内で対応する食材番号がありません\n");
 		else if (i_Code == -104)printf("ingredients.txt内で食材名が数値になっています\n");
+
+		return 0;
+	}
+
+	return 0;
+}
+
 
 		return 0;
 	}
